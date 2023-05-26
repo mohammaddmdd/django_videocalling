@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'agora_token_builder',
-    ''
+    'agora'
+
 ]
 
 MIDDLEWARE = [
