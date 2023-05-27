@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your App</title>
+    {% block head_scripts %}
+        <link rel="stylesheet" type="text/css" href="{% static 'agora/index.css' %}"/>
+        <script src="https://download.agora.io/sdk/release/AgoraRTC_N-4.7.0.js"></script>
+        <script src="{% static 'agora/agora-rtm-sdk-1.4.4.js' %}"></script>
+    {% endblock head_scripts %}
+</head>
+<body>
+    {% block content %}
+    {% endblock content %}
+
+    {% block bottom_scripts %}
+        <script>
+            const AUTH_USER = "{{ user }}";
+            const AUTH_USER_ID = "{{ request.user.id }}";
+            const CSRF_TOKEN = "{{ csrf_token }}";
+            const AGORA_APP_ID = "{{ agoraAppID }}";
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="{% static 'agora/index.js' %}"></script>
+    {% endblock bottom_scripts %}
+</body>
+</html>
