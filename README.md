@@ -68,3 +68,5 @@ In one browser, you can call the user who is logged in and on the other browser 
 
 The other user will be prompted to click the "Accept" button to fully establish the call.
 
+![Screenshot 2023-05-28 050649](https://github.com/mohammaddmdd/django_videocalling/assets/112494873/82929751-b906-4e8a-80a1-da962a99887d)
+![Screenshot 2023-05-28 050743](https://github.com/mohammaddmdd/django_videocalling/assets/112494873/c582e160-6f12-40b3-bcdf-05246615a167)
