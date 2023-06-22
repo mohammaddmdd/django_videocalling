@@ -1,5 +1,5 @@
 # django_videocalling
-## Quickstart for 1-1 video call with stats in Django using Agora SDK
+## Quickstart for 1-1 Live video-call in Django using Agora SDK
 ## Features:
 - Inviting a user to a video call with an incoming call notification
 - Returning the appropriate feedback if the user is offline
