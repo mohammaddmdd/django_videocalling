@@ -1,5 +1,5 @@
 # django_videocalling
-## Build a Scalable Realtime Video Chat App with Agora in Django
+## Quickstart for 1-1 video call with stats in Django using Agora SDK
 ## Features:
 - Inviting a user to a video call with an incoming call notification
 - Returning the appropriate feedback if the user is offline
